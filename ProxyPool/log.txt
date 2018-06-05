@@ -1,0 +1,2000 @@
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.0' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.1' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.2' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.3' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.4' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.5' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.6' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.7' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.8' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.9' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.10' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.11' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.12' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.13' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.14' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.15' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.16' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.17' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.18' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.19' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.20' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.21' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.22' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.23' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.24' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.25' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.26' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.27' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.28' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.29' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.30' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.31' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.32' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.33' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.34' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.35' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.36' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.37' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.38' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.39' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.40' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.41' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.42' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.43' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.44' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.45' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.46' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.47' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.48' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.49' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.50' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.51' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.52' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.53' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.54' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.55' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.56' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.57' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.58' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.59' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.60' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.61' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.62' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.63' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.64' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.65' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.66' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.67' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.68' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.69' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.70' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.71' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.72' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.73' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.74' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.75' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.76' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.77' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.78' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.79' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.80' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.81' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.82' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.83' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.84' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.85' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.86' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.87' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.88' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.89' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.90' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.91' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.92' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.93' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.94' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.95' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.96' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.97' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.98' for key 'IP'")
+Traceback (most recent call last):
+  File "D:/Document/code/Python/TimeProxyPool/ProxyPool/DataBase.py", line 22, in AddItem
+    cur.execute(sqlCmd)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Program Files\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '192.168.0.99' for key 'IP'")
