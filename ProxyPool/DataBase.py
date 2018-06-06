@@ -21,6 +21,7 @@ class DataBase():
             cur = self.conn.cursor()
             cur.execute(sqlCmd)
             self.conn.commit()
+            print("插入完成", ip, port)
         except Exception as e:
             f = open("log.txt", 'a')
             traceback.print_exc(file=f)
@@ -43,11 +44,13 @@ class DataBase():
         finally:
             pass
 
-
-if __name__ == "__main__":
-    db = DataBase()
-    for x in range(0, 100):
-        ip = "192.168.0." + str(x)
-        port = x
-        db.AddItem(ip, port)
-    db.ShowAll()
+    def DeleteItem(self, ip):
+        cur = self.conn.cursor()
+        sqlCmd = "DELETE FROM {} WHERE {}='{}' ".format(TABLENAME, "IP", ip)
+        try:
+            cur.execute(sqlCmd)
+            self.conn.commit()
+        except:
+            traceback.print_exc()
+        finally:
+            pass

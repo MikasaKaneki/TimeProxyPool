@@ -1,9 +1,10 @@
 import datetime, time
+from ProxyPool.GetIpAndPort import *
 
 
 def timer():
     sched_time = datetime.datetime(2018, 6, 5, 22, 45, 00)
-    timedelta = datetime.timedelta(minutes=1)
+    timedelta = datetime.timedelta(seconds=5)
     now_timer = datetime.datetime.now()
     if str(sched_time - now_timer)[0] == '-':
         print('现在的时间大于开始的时间，请重新调整')
@@ -13,10 +14,13 @@ def timer():
         now_timer = str(datetime.datetime.now())[:-7]
         if now_timer == str(sched_time):
             sched_time = str(datetime.datetime.now() + timedelta)[:-7]
-            print(sched_time)
+            # print(sched_time)
+            Get_ip181()
         time.sleep(1)
-        print('现在的时间是' + str((datetime.datetime.now())))
+        # print('现在的时间是' + str((datetime.datetime.now())))
 
 
 if __name__ == "__main__":
-    timer()
+    # timer()
+    while True:
+        Get_ip181()
